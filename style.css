@@ -123,6 +123,7 @@ margin: 0px;
     width: 100vw;
     left: 0px;
     height: 80vh;
+    right: 0px;
 }
 
 
@@ -243,11 +244,11 @@ button{
         display: flex;
         position: relative;
         
-            height: 250px;
+            height: 300px;
             width: 28%;
             border: black;
             box-shadow: 0px 5px 5px 1px black;
-            z-index: 5;
+            z-index: 4;
             
             
         
@@ -268,13 +269,98 @@ button{
 
 
 
-.close{
-display: flex;
-position: relative;
-height: 10vh;
-width: 100%;
-background-color: black;
-bottom: 0px;
 
-left: 0px;
+
+.frst-photo{
+    display: flex;
+     position: absolute;
+     justify-content: center;
+     left: 22px;
+     top: 20px;
 }
+
+.txt14{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    position: absolute;
+    bottom: 75px;
+    left: 22px;
+    font-size: 20px;
+}
+
+.secnd-photo{
+    display: flex;
+     position: absolute;
+     justify-content: center;
+     left: 22px;
+     top: 20px;
+}
+
+.txt15{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    position: absolute;
+    bottom: 95px;
+    left: 22px;
+    font-size: 20px;
+}
+.third-photo{
+    display: flex;
+     position: absolute;
+     justify-content: center;
+     left: 22px;
+     top: 20px;
+}
+
+.txt16{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    position: absolute;
+    bottom: 95px;
+    left: 22px;
+    font-size: 20px;
+}
+
+a{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    font-size: 12px;
+    color: rgb(26, 167, 185);
+    left: 22px;
+}
+a:hover{
+    border-bottom: 2px solid  rgb(26, 167, 185);
+}
+
+
+.close{
+    display: flex;
+    position: relative;
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+    bottom: 0px;
+    
+    left: 0px;
+    }
+
+    .close img{
+        display: flex;
+        position: absolute;
+        width: 125px;
+        height: 20%;
+        top: 15px;
+        left: 25%;
+    }
+
+    /* h6{
+        display: flex;
+        position: absolute;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 50px;
+       z-index: 5; */
+    /* } */
