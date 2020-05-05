@@ -1,0 +1,280 @@
+body{
+margin: 0px;
+}
+
+.header {
+    display: flex;
+    position: fixed;
+    height: 12vh;
+    width: 55%;
+    background-color: black;
+    top: 0px;
+    z-index: 5;
+    left: 0px;
+}
+.small-header{
+    
+    display: flex;
+    position: fixed;
+    height: 12vh;
+    width: 45%;
+    background-color: black;
+    top: 0px;
+    right: 0px;
+    z-index: 6;
+}
+.logo{
+    float: left;
+    position: absolute;
+    z-index: 2;
+    left: 180px;
+    z-index: 6;
+}
+.logo img{
+    width: 180px;
+    height: 12vh;
+    
+}
+
+.buttons{
+    background-color: white;
+    width:150px;
+    height: 50px;
+    display: flex;
+    right: 0px;
+}
+.middle-header{
+    display: flex;
+    position: fixed;
+    height: 12vh;
+    width: 45%;
+    background-color: black;
+    top: 0px;
+    right: 400px;
+    z-index: 6;
+}
+.txt{
+    color: black;
+}
+.txt:hover,
+.txt2:hover,
+.txt3:hover,
+.txt4:hover
+{
+    border-bottom: 2px solid white;
+}
+
+.frst-header{
+    display: flex;
+    position: absolute;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 65%;
+    top: 40%;
+    z-index: 6;
+}
+.txt,
+.txt2,
+.txt3,
+.txt4
+{
+    font-family: 'Roboto', sans-serif;
+   color: white;
+   z-index: 7;
+}
+
+
+.inside-small-header{
+    display: flex;
+    position: absolute;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    top: 40%;
+    left: 17%;
+    z-index: 6;
+}
+
+.txt5:hover,
+.txt6:hover,
+.txt7:hover,
+.txt8:hover
+{
+    border-bottom: 2px solid grey;
+}
+.txt5,
+.txt6,
+.txt7,
+.txt8
+{
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+   color: grey;
+   z-index: 7;
+}
+
+.darth-maul{
+    display: flex;
+    
+    top: 300px;
+}
+
+.darth-maul img{
+    width: 100vw;
+    left: 0px;
+    height: 80vh;
+}
+
+
+.clear-bar{
+    display: flex;
+    position: relative;
+    float: none;
+    height: 15vh;
+    width: 100%;
+    background-color: rgb(52, 52, 63,.8);
+    bottom: 98px;
+    z-index: 4;
+    /* opacity: 0.8;  */
+}
+
+.in-clear-bar{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    top: 30%; 
+}
+.txt9{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+   color: white;
+}
+.txt9:hover{
+    border-bottom: 4px solid white;
+}
+button{
+    width: 200px;
+    height: 40px;
+    
+}
+.dark-bar{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(52, 52, 63);
+    bottom: 44px;
+    
+}
+
+
+.inside-dark-bar{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    top: 30%; 
+    left: 20%;
+
+}
+.txt10,
+.txt11,
+.txt12
+{
+    font-family: 'Roboto', sans-serif;
+   color: white;
+   font-size: 13px;
+}
+
+
+.txt13{
+    font-family: 'Roboto', sans-serif;
+    display:flex;
+    align-items: center;
+    left: 100px;
+    justify-content: center;
+    width: 100%;
+    font-size: 18px;
+    
+}
+
+
+
+
+
+
+.test{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    bottom: 50px;
+}
+
+
+
+.three-buttons{
+    display: flex;
+    position: relative;
+    height: 60vh;
+    width: 100%;
+    background-color: white;
+    left: 0px;
+    bottom: 50px;
+    }
+
+.the-boxes{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    left: 125px;
+}
+
+    .obj1,
+    .obj2,
+    .obj3
+     {
+        display: flex;
+        position: relative;
+        
+            height: 250px;
+            width: 28%;
+            border: black;
+            box-shadow: 0px 5px 5px 1px black;
+            z-index: 5;
+            
+            
+        
+    }
+    
+
+.white-space{
+        display: flex;
+        position: relative;
+        height: 40vh;
+        width: 100%;
+        background-color:white;
+        bottom: 0px;
+        
+        left: 0px;
+}
+
+
+
+
+.close{
+display: flex;
+position: relative;
+height: 10vh;
+width: 100%;
+background-color: black;
+bottom: 0px;
+
+left: 0px;
+}
